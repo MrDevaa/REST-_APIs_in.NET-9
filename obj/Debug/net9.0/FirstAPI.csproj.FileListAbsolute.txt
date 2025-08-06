@@ -31,3 +31,4 @@ C:\Users\narut\source\repos\FirstAPI\FirstAPI\obj\Debug\net9.0\refint\FirstAPI.d
 C:\Users\narut\source\repos\FirstAPI\FirstAPI\obj\Debug\net9.0\FirstAPI.pdb
 C:\Users\narut\source\repos\FirstAPI\FirstAPI\obj\Debug\net9.0\FirstAPI.genruntimeconfig.cache
 C:\Users\narut\source\repos\FirstAPI\FirstAPI\obj\Debug\net9.0\ref\FirstAPI.dll
+C:\Users\narut\source\repos\FirstAPI\FirstAPI\obj\Debug\net9.0\FirstAPI.sourcelink.json

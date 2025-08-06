@@ -1,7 +1,13 @@
-@FirstAPI_HostAddress = https://localhost:7190
+@rootURL = https://localhost:7190
 
 
-GET {{FirstAPI_HostAddress}}/weatherforecast/
+GET {{rootURL}}/weatherforecast/
 Accept: application/json
 
 ###
+GET {{rootURL}}/api/book
+Accept: application/json
+
+### Obtenir un livre par ID
+GET {{rootURL}}/api/book/2
+Accept: application/json
