@@ -93,6 +93,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "FirstAPI.Controllers.BookController",
+    "Method": "DeleteBook",
+    "RelativePath": "api/Book/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FirstAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

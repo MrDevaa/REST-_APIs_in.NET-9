@@ -33,3 +33,7 @@ Content-Type: application/json
   "author": "Alen",
   "yearPublished": 2025
 }
+
+###
+DELETE {{rootURL}}/api/book/4
+Accept: application/json

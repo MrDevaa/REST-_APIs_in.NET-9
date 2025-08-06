@@ -54,6 +54,16 @@ namespace FirstAPI.Controllers
 
             return NoContent();
         }
+        [HttpDelete("{id}")]
+            public IActionResult DeleteBook(int id)
+        {
+            var book = books.FirstOrDefault(x => x.Id == id);
+            if (book == null)
+                return NotFound();
+
+            books.Remove(book);
+            return NoContent();
+        }
 
     }
 }
