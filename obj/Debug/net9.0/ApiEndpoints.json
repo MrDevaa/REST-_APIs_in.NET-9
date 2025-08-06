@@ -21,6 +21,32 @@
   },
   {
     "ContainingType": "FirstAPI.Controllers.BookController",
+    "Method": "AddBook",
+    "RelativePath": "api/Book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newBook",
+        "Type": "FirstAPI.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FirstAPI.Models.Book",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FirstAPI.Controllers.BookController",
     "Method": "GetBooksById",
     "RelativePath": "api/Book/{id}",
     "HttpMethod": "GET",

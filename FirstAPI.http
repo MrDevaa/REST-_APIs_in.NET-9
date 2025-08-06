@@ -11,3 +11,14 @@ Accept: application/json
 ### Obtenir un livre par ID
 GET {{rootURL}}/api/book/2
 Accept: application/json
+
+###
+POST {{rootURL}}/api/book
+Content-Type: application/json
+
+{
+  "id": 6,
+  "title": "C# unlock",
+  "author": "Alen",
+  "yearPublished": 2025
+}
