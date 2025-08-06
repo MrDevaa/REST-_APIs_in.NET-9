@@ -22,3 +22,14 @@ Content-Type: application/json
   "author": "Alen",
   "yearPublished": 2025
 }
+
+###
+PUT {{rootURL}}/api/book/5
+Content-Type: application/json
+
+{
+  "id": 5,
+  "title": "C# unlock",
+  "author": "Alen",
+  "yearPublished": 2025
+}
